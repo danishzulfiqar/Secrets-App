@@ -15,6 +15,14 @@ This is a simple web application that allows you to share your secrets completel
 - Read others secrets.
 - Persistent storage using Node.js and MongoDB backend.
 
+## Overview
+
+<img src="public/Assets/Screenshot 2023-09-09 at 12.10.25 PM.png" data-canonical-src="public/Assets/Screenshot 2023-09-09 at 12.10.25 PM.png" width="600" />
+
+<img src="public/Assets/Screenshot%202023-09-09%20at%2012.12.26%20PM.png" data-canonical-src="public/Assets/Screenshot%202023-09-09%20at%2012.12.26%20PM.png" width="600"/>
+
+<img src="public/Assets/Screenshot 2023-09-09 at 12.12.48 PM.png" data-canonical-src="public/Assets/Screenshot 2023-09-09 at 12.12.48 PM.png" width="600"/>
+
 ## Getting Started
 
 ### Prerequisites
@@ -41,7 +49,10 @@ cd Secrets-App
 npm install
 ```
 
-4. Go live:
+4. Go to .env.example and fill your own credidentials there
+
+
+5. Go live:
 
 ```bash
 npm run dev
