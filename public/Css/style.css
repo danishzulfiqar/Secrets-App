@@ -43,8 +43,9 @@
     font-size: 2rem;
     color: #fff;
     background-color: #000000;
-    /* max-width: 800px; */
     margin-inline: auto;
+    padding: 0.2rem 0.3rem;
+    border-radius: 6px;
 }
 
 .secret-input-form {

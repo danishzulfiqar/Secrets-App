@@ -33,7 +33,8 @@ app.use(passport.session());
 
 
 // setting mongoDb and schema
-mongoose.connect(`mongodb://localhost:27017/secreteDB`, { useNewUrlParser: true });
+const dbURL = process.env.dbURL;
+mongoose.connect(`${dbURL}`, { useNewUrlParser: true });
 
 const UserSchema = new mongoose.Schema({
     strategy: {
